@@ -1,0 +1,77 @@
+body{
+  font-family: "Open Sans", fantasy;
+  text-align: center;
+}
+
+h1{
+  color: black;
+}
+
+main{
+  /*margin-left: 50 --> this messed everything up */
+  width: 500px;
+  margin: 50px auto;
+}
+
+nav{
+  padding: 1px;
+  text-align: center;
+  background-color: gainsboro;
+}
+
+li{
+  display: inline; 
+}
+
+a:hover{
+  color: seashell;
+  background-color: darkslategray;
+  transition: all 0.8s;
+}
+
+a{
+  padding: 10px 5px 10px 10px;
+  display: inline-block;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 5px;  
+  text-decoration: none;
+}
+
+div{
+  width: calc((100% / 3) - 40px); 
+  /* This ^seperates the columns */
+  float: left;
+  /* This ^ lines up the boxes at the top*/
+  border: 2px solid steelblue;
+  box-sizing: border-box;
+  /* This ^ is so that the boxes always remain lined up at the top and not squshed around */
+  padding: 0px 0px 20px 0px;
+  margin: 20px; 
+  background-color: lightgray;
+}
+
+div h2{
+  background-color: #59A1AA;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+div p,
+div a{
+  margin: 20px;
+}
+h1{
+  color: #59A1AA;
+  text-align: center;
+  background-color: bisque;
+}
+
+footer{
+  color: ghostwhite;
+}
+ 
+body{
+  background-color: white;
+}

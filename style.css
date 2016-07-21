@@ -1,0 +1,82 @@
+body{
+  font-family: "Open Sans", fantasy;
+  text-align: center;
+}
+
+body.onceorange{
+  background-image:url(https://images.unsplash.com/photo-1456298964505-ef9e1a638209?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a1a8ad0a4412a9c991e4f55ead643e2d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:5px;
+  background-origin: content-box;
+
+/*  margin: 1cm 21cm 3cm 4cm;*/
+  text-align: center;
+}
+
+h1.onceorange{
+ color: black;
+}
+
+
+
+main{
+/*margin-left: 50 --> this messed everything up */
+  width: 500px;
+  margin: 50px auto;
+}
+div.lemontree{
+ background-color: seashell;
+  border: 3px solid black;
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+
+}
+
+nav{
+  padding: 1px;
+  text-align: center;
+  background-color: gainsboro;
+  
+}
+
+li{
+ display: inline; 
+}
+
+a:hover{
+  color: seashell;
+  background-color: darkslategray;
+  transition: all 0.8s;
+}
+
+a{
+  padding: 10px 5px 10px 10px;
+  display: inline-block;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 5px;  
+  text-decoration: none;
+}
+
+footer{
+  color: ghostwhite;
+}
+
+body.bobbybrown{
+ background-color: aliceblue;
+  border: 3px solid #59A1AA;
+}
+
+h1.bluefrown{
+  color: #59A1AA; 
+  background-color: bisque;
+}
+
+img{
+ border: 3px solid slategray; 
+}
+
+body.stress img{
+ border: 3px solid cadetblue;
+}
